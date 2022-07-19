@@ -1,4 +1,5 @@
 from turtle import Turtle, Screen
+import turtle
 import random
 
 the_turtle = Turtle()
@@ -36,10 +37,16 @@ colors = ["medium aquamarine", "gold", "red", "purple", "green", "blue", "black"
 #     the_turtle.setheading(direction)
 #     the_turtle.forward(30)
 
+# turtle.colormode(255)
+# def random_color():
+#     red = random.randint(0, 255)
+#     green = random.randint(0, 255)
+#     blue = random.randint(0, 255)
+#     return (red, green, blue)
 # for i in range(250):
 #     the_turtle.pensize(10)
 #     the_turtle.speed(0)
-#     the_turtle.color(random.choice(colors))
+#     the_turtle.color(random_color())
 #     walk(random.choice(directions))
 
 screen = Screen()
