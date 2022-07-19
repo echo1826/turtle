@@ -22,7 +22,7 @@ the_turtle.color('blue')
 #         the_turtle.forward(100)
 #         the_turtle.right(angle)        
 
-# colors = ["medium aquamarine", "gold", "red", "purple", "green", "blue", "black", "pink"]
+colors = ["medium aquamarine", "gold", "red", "purple", "green", "blue", "black", "pink"]
 # num_sides = 3
 # CIRCLE = 360
 # for j in range(3, 11):
@@ -30,6 +30,17 @@ the_turtle.color('blue')
 #     draw_shape(num_sides)
 #     num_sides += 1
 
+# draw a random walk
+# directions = [0, 90, 180, 270]
+# def walk(direction):
+#     the_turtle.setheading(direction)
+#     the_turtle.forward(30)
+
+# for i in range(250):
+#     the_turtle.pensize(10)
+#     the_turtle.speed(0)
+#     the_turtle.color(random.choice(colors))
+#     walk(random.choice(directions))
 
 screen = Screen()
 screen.exitonclick()
